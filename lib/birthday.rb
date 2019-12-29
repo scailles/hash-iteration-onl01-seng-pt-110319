@@ -5,11 +5,11 @@
 # }
 
 def happy_birthday(birthday_kids)
-  # add your code snippet here!
   birthday_kids.each do |kids_name,age|
-    if age<=18
-    puts "Happy Birthday #{kids_name}! You are now #{age} years old!"
-  else
+    case age
+    when age<=18
+      puts "Happy Birthday #{kids_name}! You are now #{age} years old!"
+  when age>18
     puts "You are too old for this"
   end
   end
