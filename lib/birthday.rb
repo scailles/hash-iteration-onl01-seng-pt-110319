@@ -11,7 +11,6 @@ def happy_birthday(birthday_kids)
   elsif age>=18
     puts "You are too old for this"
   end
-  end
 end
 
 
